@@ -3,6 +3,8 @@ Speech (Voice) Recognition using C# and Unity3D.
 * [Tutorial](http://lightbuzz.com/speech-recognition-unity/)
 * [Source Code](https://github.com/LightBuzz/Speech-Recognition-Unity)
 
+![Speech recognition game in Unity3D](http://lightbuzz.com/wp-content/uploads/2016/07/speech-recognition-unity-game-ui.jpg)
+
 ## Prerequisites
 To run the project, you’ll need the following software components:
 * Unity3D 5.5+
