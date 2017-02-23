@@ -48,5 +48,6 @@ KeywordRecognizer is available for Windows Standalone and Windows Store (Windows
 * HoloLens
 
 ## Contributors
+The project is brought to you by [LightBuzz](//lightbuzz.com)
 * [Michail Moiropoulos](http://instoriumgames.com)
 * [Vangos Pterneas](http://pterneas.com)
