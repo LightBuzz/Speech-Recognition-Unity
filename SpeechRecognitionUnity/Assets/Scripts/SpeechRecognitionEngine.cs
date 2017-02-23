@@ -6,16 +6,8 @@ using UnityEngine.Windows.Speech;
 
 public class SpeechRecognitionEngine : MonoBehaviour
 {
-    public string[] keywords = new string[]
-    {
-        "up",
-        "down",
-        "left",
-        "right"
-    };
-
+    public string[] keywords = new string[] { "up", "down", "left", "right" };
     public ConfidenceLevel confidence = ConfidenceLevel.Medium;
-
     public float speed = 1;
 
     public Text results;
@@ -68,6 +60,7 @@ public class SpeechRecognitionEngine : MonoBehaviour
     {
         if (recognizer != null && recognizer.IsRunning)
         {
+            recognizer.OnPhraseRecognized -= Recognizer_OnPhraseRecognized;
             recognizer.Stop();
         }
     }
