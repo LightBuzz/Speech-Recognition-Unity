@@ -1,7 +1,7 @@
 # Speech Recognition in Unity
 Speech (Voice) Recognition using C# and Unity3D.
-* [Tutorial](//lightbuzz.com/speech-recognition-unity/)
-* [Source Code](//github.com/LightBuzz/Speech-Recognition-Unity)
+* [Tutorial](http://lightbuzz.com/speech-recognition-unity/)
+* [Source Code](https://github.com/LightBuzz/Speech-Recognition-Unity)
 
 ## Prerequisites
 To run the project, you’ll need the following software components:
@@ -48,6 +48,6 @@ KeywordRecognizer is available for Windows Standalone and Windows Store (Windows
 * HoloLens
 
 ## Contributors
-The project is brought to you by [LightBuzz](//lightbuzz.com)
+The project is brought to you by [LightBuzz](http://lightbuzz.com)
 * [Michail Moiropoulos](http://instoriumgames.com)
 * [Vangos Pterneas](http://pterneas.com)
