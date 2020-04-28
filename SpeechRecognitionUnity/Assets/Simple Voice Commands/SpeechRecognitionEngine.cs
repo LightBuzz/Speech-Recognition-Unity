@@ -1,9 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Windows.Speech;
 
+/// <summary>
+/// see here https://lightbuzz.com/speech-recognition-unity/
+/// </summary>
 public class SpeechRecognitionEngine : MonoBehaviour
 {
     public string[] keywords = new string[] { "up", "down", "left", "right" };
@@ -23,6 +24,12 @@ public class SpeechRecognitionEngine : MonoBehaviour
             recognizer = new KeywordRecognizer(keywords, confidence);
             recognizer.OnPhraseRecognized += Recognizer_OnPhraseRecognized;
             recognizer.Start();
+            Debug.Log( recognizer.IsRunning );
+        }
+
+        foreach (var device in Microphone.devices)
+        {
+            Debug.Log("Name: " + device);
         }
     }
 

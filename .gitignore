@@ -28,4 +28,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-/SpeechRecognitionUnity/Library
+/SpeechRecognitionUnity/Releases
+/SpeechRecognitionUnity/[Ll]ibrary/
+/SpeechRecognitionUnity/[Tt]emp/
+/SpeechRecognitionUnity/[Oo]bj/
+/SpeechRecognitionUnity/[Bb]uild/
+/SpeechRecognitionUnity/[Bb]uilds/
+/SpeechRecognitionUnity/Assets/AssetStoreTools*
